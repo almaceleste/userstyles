@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube Progress Bar Highlighting
 @namespace      almaceleste
-@version        0.4.0
+@version        0.4.1
 @description    highlights the progress bar of the youtube player on hover
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -26,10 +26,6 @@
     'white'
 ]
 ==/UserStyle== */
-
-:root {
-    --highlight-color: deepskyblue;
-}
 
 @-moz-document url-prefix("https://www.youtube.com/watch") {
     .ytp-probably-keyboard-focus .ytp-progress-bar:focus .ytp-play-progress,
