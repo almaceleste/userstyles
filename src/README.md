@@ -1,1 +1,1 @@
-userscripts folder
+userstyles folder
