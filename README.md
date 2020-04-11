@@ -16,8 +16,7 @@ this is the repo of my userstyles.
 [![](https://img.shields.io/badge/Userstyles.org-almaceleste-green.svg?longCache=true&colorA=778899&colorB=00bfff)](https://userstyles.org/users/903337 "userstyles.org | almaceleste")  
 
 ### list of styles 
-#### [![](https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico) Youtube Progress Bar Highlighting](https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css 
- 'install')  
+#### [![](https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico) Youtube Progress Bar Highlighting](https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css 'install')  
 highlights the progress bar of the youtube player on hover)    
 
 
