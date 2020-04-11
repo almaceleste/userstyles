@@ -10,10 +10,6 @@ this is the repo of my userstyles.
 [![Chrome](https://img.shields.io/badge/Chrome-Linux,_Windows,_Mac,_Chrome_OS-lightgrey.svg?longCache=true)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)  
 [![Firefox](https://img.shields.io/badge/Firefox-Linux,_Windows,_Mac-lightgrey.svg?longCache=true)](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)  
 [![Opera](https://img.shields.io/badge/Opera-Linux,_Windows,_Mac-lightgrey.svg?longCache=true)](https://addons.opera.com/en-gb/extensions/details/stylus/)  
-[![Edge](https://img.shields.io/badge/Edge-Windows-lightgrey.svg?longCache=true)](https://tampermonkey.net/?browser=edge)  
-[![Safari](https://img.shields.io/badge/Safari-Mac-lightgrey.svg?longCache=true)](https://tampermonkey.net/?browser=safari)  
-[![Dolphin](https://img.shields.io/badge/Dolphin-Android-lightgrey.svg?longCache=true)](https://tampermonkey.net/?browser=dolphin)  
-[![UC](https://img.shields.io/badge/UC-Android-lightgrey.svg?longCache=true)](https://tampermonkey.net/?browser=ucweb)  
 
 #### external repos
 [![](https://img.shields.io/badge/OpenUserCSS-almaceleste-green.svg?longCache=true&colorA=778899&colorB=00bfff)](https://openusercss.org/profile/5e90dfa66618400c009af3dd "openusercss | almaceleste")  
