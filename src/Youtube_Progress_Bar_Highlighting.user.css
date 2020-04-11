@@ -24,7 +24,7 @@
     .ytp-probably-keyboard-focus .ytp-progress-bar:focus {
         box-shadow: rgba(53, 128, 186, 0.5) 0px 0px 2px 1px;
     }
-    .ytp-probably-keyboard-focus .ytp-chrome-bottom:hover .ytp-progress-bar {
+    .ytp-chrome-bottom:hover .ytp-progress-bar {
         box-shadow: rgba(53, 128, 186, 0.5) 0px 0px 2px 1px;
     }
 }
