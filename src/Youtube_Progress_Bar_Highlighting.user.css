@@ -13,7 +13,7 @@
 @updateURL      https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css
 
 @preprocessor   default
-@var    select highlight-color 'highlight color' [
+@var select     highlight-color 'highlight color' [
     'black',
     'darkgreen',
     'deepskyblue*',
