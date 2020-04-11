@@ -12,14 +12,30 @@
 @supportURL     https://github.com/almaceleste/userstyles/issues
 @updateURL      https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css
 
-@preprocessor   stylus
+@preprocessor   default
+@var    select highlight-color 'highlight color' [
+    'black',
+    'darkgreen',
+    'deepskyblue*',
+    'gold',
+    'indigo',
+    'lime',
+    'magenta',
+    'navy',
+    'orangered',
+    'white'
+]
 ==/UserStyle== */
+
+:root {
+    --highlight-color: deepskyblue;
+}
 
 @-moz-document url-prefix("https://www.youtube.com/watch") {
     .ytp-probably-keyboard-focus .ytp-progress-bar:focus .ytp-play-progress,
     .ytp-chrome-bottom:hover .ytp-scrubber-container,
     .ytp-chrome-bottom:hover .ytp-play-progress {
-        filter: drop-shadow(0 0 1px deepskyblue) drop-shadow(0 0 2px deepskyblue) drop-shadow(0 0 5px deepskyblue);
+        filter: drop-shadow(0 0 1px var(--highlight-color)) drop-shadow(0 0 2px var(--highlight-color)) drop-shadow(0 0 5px var(--highlight-color));
     }
     .ytp-probably-keyboard-focus .ytp-progress-bar:focus {
         box-shadow: rgba(53, 128, 186, 0.5) 0px 0px 2px 1px;
