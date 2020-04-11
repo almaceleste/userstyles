@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name         Youtube Progress Bar Highlighting
+@description  highlights the progress bar of the youtube player on hover
+@namespace    almaceleste
+@version      0.3.0
+@author       almaceleste (https://almaceleste.github.io)
+@homepageURL  https://userstyles.org/styles/182156
+@supportURL   https://userstyles.org/styles/182156
+@license      AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.youtube.com/watch") {
+    .ytp-probably-keyboard-focus .ytp-progress-bar:focus .ytp-play-progress,
+    .ytp-chrome-bottom:hover .ytp-scrubber-container,
+    .ytp-chrome-bottom:hover .ytp-play-progress {
+        filter: drop-shadow(0 0 1px deepskyblue) drop-shadow(0 0 2px deepskyblue) drop-shadow(0 0 5px deepskyblue);
+    }
+    .ytp-probably-keyboard-focus .ytp-progress-bar:focus {
+        box-shadow: rgba(53, 128, 186, 0.5) 0px 0px 2px 1px;
+    }
+    .ytp-probably-keyboard-focus .ytp-chrome-bottom:hover .ytp-progress-bar {
+        box-shadow: rgba(53, 128, 186, 0.5) 0px 0px 2px 1px;
+    }
+}
