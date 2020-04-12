@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube Progress Bar Highlighting
 @namespace      almaceleste
-@version        0.4.1
+@version        0.5.0
 @description    highlights the progress bar of the youtube player on hover
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -11,7 +11,7 @@
 @supportURL     https://github.com/almaceleste/userstyles/issues
 @updateURL      https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css
 
-@preprocessor   default
+@preprocessor   uso
 @var select     highlight-color 'highlight color' [
     'black',
     'darkgreen',
@@ -30,7 +30,7 @@
     .ytp-probably-keyboard-focus .ytp-progress-bar:focus .ytp-play-progress,
     .ytp-chrome-bottom:hover .ytp-scrubber-container,
     .ytp-chrome-bottom:hover .ytp-play-progress {
-        filter: drop-shadow(0 0 1px var(--highlight-color)) drop-shadow(0 0 2px var(--highlight-color)) drop-shadow(0 0 5px var(--highlight-color));
+        filter: drop-shadow(0 0 1px /*[[highlight-color]]*/) drop-shadow(0 0 2px /*[[highlight-color]]*/) drop-shadow(0 0 5px /*[[highlight-color]]*/);
     }
     .ytp-probably-keyboard-focus .ytp-progress-bar:focus {
         box-shadow: rgba(53, 128, 186, 0.5) 0px 0px 2px 1px;
