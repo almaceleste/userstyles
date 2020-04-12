@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Stylus Theme (Dark Side)
 @namespace      almaceleste
-@version        0.5.0
+@version        0.5.1
 @description    Stylus dark theme, inspired by Randy W. Sims' Stylus Theme (Dark) <https://github.com/simsrw73/stylus-theme>
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -204,6 +204,7 @@
     #stylus-edit #options-wrapper .option > label > svg { margin-top: 4px; }
     #stylus-edit #options-wrapper .option > label > input { margin-top: 2px; }
     #stylus-options { margin: 0 auto; background-color: #333; letter-spacing: 0; }
+    #stylus-options #options { background-color: #333; }
     #stylus-options input { -webkit-border-radius: 0; border-radius: 0; background-color: transparent !important; border: none !important; margin-bottom: 0; }
     #stylus-options input[type='number'] { background-color: rgba(51, 51, 51, 0.2) !important; border: 1px solid rgba(38, 254, 250, 0.4) !important; color: white; }
     #stylus-options input[type='radio'] { padding: 0; height: 13px !important; background-color: transparent !important; -webkit-border-radius: 50%; border-radius: 50%; border: 1px solid rgba(38, 254, 250, 0.4) !important; }
