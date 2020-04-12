@@ -18,7 +18,7 @@ this is the repo of my userstyles.
 ### list of styles 
 #### [![](https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico) Youtube Progress Bar Highlighting](https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css 'install')  
 highlights the progress bar of the youtube player on hover  
-#### [![](https://cdn.add0n.com/icons/stylus16.png) Stylus Theme (Dark Side)](https://github.com/almaceleste/userstyles/raw/master/src/Stylus_Theme_(Dark_Side).user.css 'install')  
+#### [![](http://cdn.add0n.com/icons/stylus16.png) Stylus Theme (Dark Side)](https://github.com/almaceleste/userstyles/raw/master/src/Stylus_Theme_(Dark_Side).user.css 'install')  
 this style is a remastered and improved style from the Stylus Theme (Dark).
 muchas gracias for Randy W. Sims, an author of it, for his huge work, which help us to save our eyes from the ruinous light.  
 *'Come to the Dark Side' - Darth Vader*  
