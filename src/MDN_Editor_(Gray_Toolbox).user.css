@@ -30,6 +30,17 @@
 ==/UserStyle== */
 
 @-moz-document regexp("https://wiki\\.developer\\.mozilla\\.org/.*\\$edit") {
+    #content-fields > .approved > header,
+    #page-comment {
+        background-color: /*[[background-color]]*/ !important;
+    }
+
+    #content-fields > .approved > header > h3,
+    #page-comment > h3 {
+        color: /*[[foreground-color]]*/ !important;
+        font-family: sans-serif;
+    }
+
     .cke_combo_button,
     .cke_toolgroup,
     .cke_top,
