@@ -2,15 +2,14 @@
 @name           MDN Editor (Gray Toolbox)
 @namespace      almaceleste
 @version        0.1.0
-@description    highlights the progress bar of the youtube player on hover
+@description    paints the MDN Editor right and left toolboxes and the comment tool to the gray color
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
-@icon           https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico
 
 @homepageURL    https://github.com/almaceleste/userstyles
-@homepageURL    https://userstyles.org/styles/182156
+@homepageURL    https://userstyles.org/styles/182308
 @supportURL     https://github.com/almaceleste/userstyles/issues
-@updateURL      https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css
+@updateURL      https://github.com/almaceleste/userstyles/raw/master/src/MDN_Editor_(Gray_Toolbox).user.css
 
 @preprocessor   uso
 @var select     background-color 'background color' {
