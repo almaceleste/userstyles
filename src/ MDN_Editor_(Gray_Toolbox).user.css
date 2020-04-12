@@ -1,0 +1,53 @@
+/* ==UserStyle==
+@name           MDN Editor (Gray Toolbox)
+@namespace      almaceleste
+@version        0.1.0
+@description    highlights the progress bar of the youtube player on hover
+@author         almaceleste (https://almaceleste.github.io)
+@license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
+@icon           https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico
+
+@homepageURL    https://github.com/almaceleste/userstyles
+@homepageURL    https://userstyles.org/styles/182156
+@supportURL     https://github.com/almaceleste/userstyles/issues
+@updateURL      https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css
+
+@preprocessor   uso
+@var select     background-color 'background color' {
+    'deepdarkgray': '#111',
+    'darkgray': '#222',
+    'deepgray*': '#333',
+    'dimgray': '#696969',
+    'gray': '#808080'
+}
+@var select     foreground-color 'foreground color' [
+    'black',
+    'dimgray',
+    'gray',
+    'lightgray',
+    'whitesmoke*'
+]
+==/UserStyle== */
+
+@-moz-document regexp("https://wiki\\.developer\\.mozilla\\.org/.*\\$edit") {
+    .cke_combo_button,
+    .cke_toolgroup,
+    .cke_top,
+    .cke_bottom {
+        background-color: /*[[background-color]]*/ !important;
+        background-image: none !important;
+        box-shadow: none !important;
+    }
+    
+    .cke_button_label,
+    .cke_combo_text,
+    a.cke_path_item, 
+    span.cke_path_empty {
+        color: /*[[foreground-color]]*/ !important;
+        text-shadow: none !important;
+    }
+    .cke_button span:not(#cke_16_label),
+    .cke_button_icon span {
+        filter: drop-shadow(0 0 1px /*[[foreground-color]]*/) drop-shadow(0 0 1px /*[[foreground-color]]*/) drop-shadow(0 0 1px /*[[foreground-color]]*/) !important;
+    }
+}
