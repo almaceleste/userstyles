@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Stylus Theme (Dark Side)
 @namespace      almaceleste
-@version        0.5.1
+@version        0.5.2
 @description    Stylus dark theme, inspired by Randy W. Sims' Stylus Theme (Dark) <https://github.com/simsrw73/stylus-theme>
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -208,7 +208,7 @@
     #stylus-options input { -webkit-border-radius: 0; border-radius: 0; background-color: transparent !important; border: none !important; margin-bottom: 0; }
     #stylus-options input[type='number'] { background-color: rgba(51, 51, 51, 0.2) !important; border: 1px solid rgba(38, 254, 250, 0.4) !important; color: white; }
     #stylus-options input[type='radio'] { padding: 0; height: 13px !important; background-color: transparent !important; -webkit-border-radius: 50%; border-radius: 50%; border: 1px solid rgba(38, 254, 250, 0.4) !important; }
-    #stylus-options input[type='radio']:checked::after { background-color: rgba(51, 51, 51, 0.4) !important; }
+    #stylus-options input[type='radio']:checked::after { background-color: /*[[highlight-color]]*/ !important; }
     #stylus-options .onoffswitch input:checked + span::before { background-color: #2c9d9b; }
     #stylus-options button { background-color: rgba(51, 51, 51, 0.2) !important; border-color: rgba(38, 254, 250, 0.8) !important; color: rgba(38, 254, 250, 0.8) !important; -webkit-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; }
     #stylus-options button:hover { background-color: rgba(51, 51, 51, 0.4) !important; color: rgba(38, 254, 250, 0.8) !important; }
