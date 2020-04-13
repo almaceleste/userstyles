@@ -16,7 +16,6 @@
 
 @-moz-document regexp('https://wiki\\.developer\\.mozilla\\.org/.*\\$edit') {
     #content-fields > .approved > header {
-        background-color: #333;
         padding: 10px;
         position: sticky;
         top: -55px;
@@ -36,7 +35,6 @@
     }
 
     #page-comment {
-        background-color: #333;
         bottom: 0px;
         padding: 10px;
         position: fixed;
