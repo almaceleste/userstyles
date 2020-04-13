@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MDN Editor (UI Tweaks)
 @namespace      almaceleste
-@version        0.2.0
+@version        0.2.1
 @description    tweaks for the UI of the MDN Editor (https://wiki.developer.mozilla.org/*$edit)
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -23,6 +23,7 @@
     }
 
     #content-fields > .approved > header > h3 {
+        display: inline-block;
         font-size: 1rem;
         margin: 0;
         position: sticky;
