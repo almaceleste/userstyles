@@ -34,5 +34,6 @@ the comment section is changed to be more compact and position absolute thus you
 so useful things are always at hand.  
 
 ### support me
-[![Beerpay](https://beerpay.io/almaceleste/userstyles/badge.svg?style=beer-square)](https://beerpay.io/almaceleste/userstyles) [![Beerpay](https://beerpay.io/almaceleste/userstyles/make-wish.svg?style=flat-square)](https://beerpay.io/almaceleste/userstyles?focus=wish)
+<!-- [![Beerpay](https://beerpay.io/almaceleste/userstyles/badge.svg?style=beer-square)](https://beerpay.io/almaceleste/userstyles) [![Beerpay](https://beerpay.io/almaceleste/userstyles/make-wish.svg?style=flat-square)](https://beerpay.io/almaceleste/userstyles?focus=wish) -->
+[![Ko-fi](/assets/img/Ko-fi_logo_transparent.png)](https://ko-fi.com/almaceleste "bye me cofee")
 [![](https://img.shields.io/badge/Paypal-donate_me-blue.svg?longCache=true&logo=paypal)](https://www.paypal.me/almaceleste "paypal | donate me") 
