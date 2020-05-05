@@ -19,6 +19,7 @@ this is the repo of my userstyles.
 #### [![](https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico) Youtube Progress Bar Highlighting](https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css 'install')  
 [![Youtube Progress Bar Highlighting](assets/img/ytpbh-small.png)](assets/img/ytpbh-big.png 'Youtube Progress Bar Highlighting')  
 highlights the progress bar of the youtube player on hover  
+* use the settings menu to change the highlight color on your choice.  
 
 #### [![](http://cdn.add0n.com/icons/stylus16.png) Stylus Theme (Dark Side)](https://github.com/almaceleste/userstyles/raw/master/src/Stylus_Theme_(Dark_Side).user.css 'install')  
 [![Stylus Theme (Dark Side)](assets/img/stds-small.png)](assets/img/stds-big.png 'Stylus Theme (Dark Side)')  
