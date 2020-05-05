@@ -18,6 +18,7 @@ this is the repo of my userstyles.
 ### list of styles 
 #### [![](https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico) Youtube Progress Bar Highlighting](https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css 'install')  
 highlights the progress bar of the youtube player on hover  
+
 #### [![](http://cdn.add0n.com/icons/stylus16.png) Stylus Theme (Dark Side)](https://github.com/almaceleste/userstyles/raw/master/src/Stylus_Theme_(Dark_Side).user.css 'install')  
 [![Stylus Theme (Dark Side)](assets/img/stds-small.png)](assets/img/stds-big.png 'Stylus Theme (Dark Side)')  
 this style is a remastered and improved style from the Stylus Theme (Dark).
@@ -25,10 +26,12 @@ muchas gracias for Randy W. Sims, an author of it, for his huge work, which help
 *'Come to the Dark Side' - Darth Vader*  
 this style goes well with the darcula theme of the editor, imho.
 but feel free with your own experiments.
+
 #### [![](https://wiki.developer.mozilla.org/static/img/favicon32.7f3da72dcea1.png) MDN Editor (Gray Toolbox)](https://github.com/almaceleste/userstyles/raw/master/src/MDN_Editor_(Gray_Toolbox).user.css 'install')  
 [![MDN Editor (Gray Toolbox)](assets/img/mdnegt-small.png)](assets/img/mdnegt-big.png 'MDN Editor (Gray Toolbox)')  
 paints the MDN Editor's right and left toolboxes and the comment tool to the gray color.  
 * use the settings menu to change the background and foreground colors on your choice.  
+
 #### [![](https://wiki.developer.mozilla.org/static/img/favicon32.7f3da72dcea1.png) MDN Editor (UI Tweaks)](https://github.com/almaceleste/userstyles/raw/master/src/MDN_Editor_(UI_Tweaks).user.css 'install')  
 [![MDN Editor (UI Tweaks)](assets/img/mdneuit-small.png)](assets/img/mdneuit-big.png 'MDN Editor (UI Tweaks)')  
 tweaks for the UI of the MDN Editor.  
