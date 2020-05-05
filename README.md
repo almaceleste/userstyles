@@ -25,8 +25,9 @@ muchas gracias for Randy W. Sims, an author of it, for his huge work, which help
 this style goes well with the darcula theme of the editor, imho.
 but feel free with your own experiments.
 #### [![](https://wiki.developer.mozilla.org/static/img/favicon32.7f3da72dcea1.png) MDN Editor (Gray Toolbox)](https://github.com/almaceleste/userstyles/raw/master/src/MDN_Editor_(Gray_Toolbox).user.css 'install')  
-paints the MDN Editor right and left toolboxes and the comment tool to the gray color.  
-use the settings menu to change the background and foreground colors on your choice.  
+[![MDN Editor (Gray Toolbox)](assets/img/mdnegt-small.png)](assets/img/mdnegt-big.png 'MDN Editor (Gray Toolbox)')  
+paints the MDN Editor's right and left toolboxes and the comment tool to the gray color.  
+* use the settings menu to change the background and foreground colors on your choice.  
 #### [![](https://wiki.developer.mozilla.org/static/img/favicon32.7f3da72dcea1.png) MDN Editor (UI Tweaks)](https://github.com/almaceleste/userstyles/raw/master/src/MDN_Editor_(UI_Tweaks).user.css 'install')  
 tweaks for the UI of the MDN Editor.  
 the left panel with the `Source` and `Hide` buttons is changed to position sticky to prevent sliding above.
