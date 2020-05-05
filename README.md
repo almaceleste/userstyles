@@ -28,6 +28,7 @@ muchas gracias for Randy W. Sims, an author of it, for his huge work, which help
 *'Come to the Dark Side' - Darth Vader*  
 this style goes well with the darcula theme of the editor, imho.
 but feel free with your own experiments.
+* use the settings menu to change the highlight color on your choice.  
 
 #### [![](https://wiki.developer.mozilla.org/static/img/favicon32.7f3da72dcea1.png) MDN Editor (Gray Toolbox)](https://github.com/almaceleste/userstyles/raw/master/src/MDN_Editor_(Gray_Toolbox).user.css 'install')  
 [![MDN Editor (Gray Toolbox)](assets/img/mdnegt-small.png)](assets/img/mdnegt-big.png 'MDN Editor (Gray Toolbox)')  
