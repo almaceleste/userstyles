@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name           Youtube Controls Highlighting
+@namespace      almaceleste
+@version        0.3.0
+@description    highlights the contols of the youtube player to the preferred color on hover
+@author         almaceleste (https://almaceleste.github.io)
+@license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
+
+@homepageURL    https://userstyles.org/styles/182091
+@homepageURL    https://github.com/almaceleste/userstyles
+@supportURL     https://github.com/almaceleste/userstyles/issues
+@updateURL      https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css
+
+@preprocessor   uso
+@var select     highlight-color 'highlight color' [
+    'black',
+    'darkgreen',
+    'deepskyblue*',
+    'gold',
+    'indigo',
+    'lime',
+    'magenta',
+    'navy',
+    'orangered',
+    'white'
+]
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.youtube.com/watch") {
+    .ytp-time-display span:hover {
+        text-shadow: 0 0 1px whitesmoke, 0 0 2px black !important;
+        filter: drop-shadow(0 0 3px /*[[highlight-color]]*/) drop-shadow(0 0 5px /*[[highlight-color]]*/) !important
+    }
+    .ytp-volume-panel:hover,
+    .ytp-chrome-controls a:hover svg,
+    .ytp-chrome-controls button:hover svg {
+        filter: drop-shadow(0 0 1px black) drop-shadow(0 0 2px /*[[highlight-color]]*/)  drop-shadow(0 0 5px /*[[highlight-color]]*/) !important;
+    }
+}
