@@ -18,7 +18,7 @@ this is the repo of my userstyles.
 ### list of styles 
 #### [![](http://s.4pda.to/iEHnNOJ5KvJr3UOqhdl.png) 4pda.ru Forum Tweaks](https://github.com/almaceleste/userstyles/raw/master/src/4pda.ru_Forum_Tweaks.user.css 'install')  
 [![topic replybox](assets/img/4pda-replybox-small.png)](assets/img/4pda-replybox-big.png 'topic replybox') [![topic message](assets/img/4pda-message-small.png)](assets/img/4pda-message-big.png 'topic message') [![avatar zoom](assets/img/4pda-avatar-small.png)](assets/img/4pda-avatar-big.png 'avatar zoom')  
-some tweaks for more compact and interactive view  
+makes the forum more compact, convenient and interactive  
 * the site header is sticky now so you have access to important links all the time
 * a quick reply box is docked at the bottom so you can scroll through messages and edit your answer at the same time
 * the topic messages have a compacted view now: the margins are minimized and the message buttons are hidden until you hover your mouse over the message
