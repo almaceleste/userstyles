@@ -16,6 +16,16 @@ this is the repo of my userstyles.
 [![](https://img.shields.io/badge/Userstyles.org-almaceleste-green.svg?longCache=true&colorA=778899&colorB=00bfff)](https://userstyles.org/users/903337 "userstyles.org | almaceleste")  
 
 ### list of styles 
+#### [![](http://s.4pda.to/iEHnNOJ5KvJr3UOqhdl.png) 4pda.ru Forum Tweaks](https://github.com/almaceleste/userstyles/raw/master/src/4pda.ru_Forum_Tweaks.user.css 'install')  
+[![topic replybox](assets/img/4pda-replybox-small.png)](assets/img/4pda-replybox-big.png 'topic replybox') [![topic message](assets/img/4pda-message-small.png)](assets/img/4pda-message-big.png 'topic message') [![avatar zoom](assets/img/4pda-avatar-small.png)](assets/img/4pda-avatar-big.png 'avatar zoom')  
+some tweaks for more compact and interactive view  
+* the site header is sticky now so you have access to important links all the time
+* a quick reply box is docked at the bottom so you can scroll through messages and edit your answer at the same time
+* the topic messages have a compacted view now: the margins are minimized and the message buttons are hidden until you hover your mouse over the message
+* the user avatar is smaller now to make the message more compact - but it will become larger when you hover over it
+* some other elements are more interactive
+* use the settings menu to change the highlight color and other options on your choice.  
+
 #### [![](https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico) Youtube Progress Bar Highlighting](https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css 'install')  
 [![Youtube Progress Bar Highlighting](assets/img/ytpbh-small.png)](assets/img/ytpbh-big.png 'Youtube Progress Bar Highlighting')  
 highlights the progress bar of the youtube player on hover  
