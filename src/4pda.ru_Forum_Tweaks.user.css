@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           4pda.ru Forum Tweaks
 @namespace      almaceleste
-@version        0.1.1
+@version        0.2.0
 @description    makes the forum more compact, convenient and interactive
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -47,17 +47,75 @@
     /* signed as */
     .user_home {
         background-color: /*[[background-color]]*/;
-        display: block;
-        position: sticky;
-        top: 0;
-        width: 100%;
-        z-index: 99;
+        display: block !important;
+        position: sticky !important;
+        top: 0 !important;
+        width: 100% !important;
+        z-index: 99 !important;
     }
     /* usermenu and links top panel */
     #userlinks {
-        position: sticky;
-        top: 14px;
-        z-index: 99;
+        position: sticky !important;
+        top: 14px !important;
+        z-index: 99 !important;
+    }
+    .popupmenu > .popupmenu-item,
+    .popupmenu > .popupmenu-item-last,
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item,
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item-last {
+        padding-left: 0 !important;
+        position: relative !important;
+    }
+    .popupmenu > .popupmenu-item > a,
+    .popupmenu > .popupmenu-item-last > a,
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item > a,
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item-last > a {
+        display: block !important;
+        padding-left: 25px !important;
+    }
+    .popupmenu > .popupmenu-item > img,
+    .popupmenu > .popupmenu-item-last > img,
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item > img,
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item-last > img {
+        left: 5px !important;
+        position: absolute !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+
+}
+/* tree page & forum page */
+@-moz-document regexp('https?://4pda\\.ru/forum/index\\.php\\?act.*'),
+    regexp('https?://4pda\\.ru/forum/index\\.php\\?showforum.*') {
+    /* subforum section header */
+    body > div > .borderwrap > .maintitle {
+        position: sticky !important;
+        top: 43px !important;
+        z-index: 98 !important;
+    }
+    /* subforum options menu */
+    body > div > .borderwrap > .maintitle .popupmenu {
+        position: absolute !important;
+        top: 22px !important;
+        transform: translateX(-16px) !important;
+    }
+    /* body > div > .borderwrap > .maintitle .popupmenu > .popupmenu-item {
+        position: relative !important;
+    }
+    body > div > .borderwrap > .maintitle .popupmenu > .popupmenu-item > a {
+        display: block !important;
+        margin-left: 20px !important;
+    }
+    body > div > .borderwrap > .maintitle .popupmenu > .popupmenu-item > img {
+        position: absolute !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    } */
+    /* topic list header */
+    body > div > .borderwrap > .ipbtable > tbody > tr:first-child > th {
+        position: sticky !important;
+        top: 68px !important;
+        z-index: 97 !important;
     }
 }
 /* topic page */
