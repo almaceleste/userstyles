@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           4pda.ru Forum Tweaks
 @namespace      almaceleste
-@version        0.2.0
+@version        0.2.1
 @description    makes the forum more compact, convenient and interactive
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -69,14 +69,16 @@
     .popupmenu > .popupmenu-item > a,
     .popupmenu > .popupmenu-item-last > a,
     .popupmenu-new > .popupmenu-item-last > .popupmenu-item > a,
-    .popupmenu-new > .popupmenu-item-last > .popupmenu-item-last > a {
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item-last > a,
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item-last > b > a {
         display: block !important;
         padding-left: 25px !important;
     }
     .popupmenu > .popupmenu-item > img,
     .popupmenu > .popupmenu-item-last > img,
     .popupmenu-new > .popupmenu-item-last > .popupmenu-item > img,
-    .popupmenu-new > .popupmenu-item-last > .popupmenu-item-last > img {
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item-last > img,
+    .popupmenu-new > .popupmenu-item-last > .popupmenu-item-last > b > img {
         left: 5px !important;
         position: absolute !important;
         top: 50% !important;
