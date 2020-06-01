@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MDN Editor (UI Tweaks)
 @namespace      almaceleste
-@version        0.2.2
+@version        0.3.0
 @description    tweaks for the UI of the MDN Editor (https://wiki.developer.mozilla.org/*$edit)
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -14,6 +14,21 @@
 @updateURL      https://github.com/almaceleste/userstyles/raw/master/src/MDN_Editor_(UI_Tweaks).user.css
 
 @preprocessor   uso
+@var text       source-background-color 'source background color' '#222'
+@var text       source-font-color 'source font color' '#ddd'
+@var text       source-font-family 'source font family' "'Courier New', Monospace"
+@var select     source-font-size 'source font size' [
+    'smaller*',
+    'xx-small',
+    'x-small',
+    'small',
+    'medium',
+    'large',
+    'x-large',
+    'xx-large',
+    'xxx-large',
+    'larger',
+]
 ==/UserStyle== */
 
 @-moz-document regexp('https://wiki\\.developer\\.mozilla\\.org/.*\\$edit') {
@@ -65,5 +80,13 @@
 
     input#id_comment {
         padding: 3px;
+    }
+
+    .translate-source textarea,
+    textarea.cke_source {
+        background-color: /*[[source-background-color]]*/ !important;
+        color: /*[[source-font-color]]*/ !important;
+        font-family:  /*[[source-font-family]]*/ !important;
+        font-size: /*[[source-font-size]]*/ !important;
     }
 }
