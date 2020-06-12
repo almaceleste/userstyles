@@ -27,7 +27,7 @@ makes the forum more compact, convenient and interactive. this style does not ch
 * use the settings menu to change the highlight color and other options on your choice.  
 
 #### [![](https://i01.appmifile.com/webfile/globalimg/favicon.ico) MI-R3G Padavan Tweaks](https://github.com/almaceleste/userstyles/raw/master/src/MI-R3G_Padavan_Tweaks.user.css 'install')  
-[![mi-r3g tweaks](assets/img/mir3g-tweaks-small.png)](assets/img/mir3g-tweaks-big.png 'mi-r3g tweaks') [![client status](assets/img/mir3g-clientstatus-small.png)](assets/img/mir3g-clientstatus-big.png 'client status') [![traffic](assets/img/mir3g-traffic-small.png)](assets/img/mir3g-traffic-small.png 'traffic')  
+[![mi-r3g tweaks](assets/img/mir3g-tweaks-small.png)](assets/img/mir3g-tweaks-big.png 'mi-r3g tweaks') [![client status](assets/img/mir3g-clientstatus-small.png)](assets/img/mir3g-clientstatus-big.png 'client status') [![traffic](assets/img/mir3g-traffic-small.png)](assets/img/mir3g-traffic-big.png 'traffic')  
 fixes and improvements for MI-R3G router Padavan firmware  
 * fixed a dark theme that, to put it mildly, was not always dark. In addition, the Dark Reader browser extension is supported
 * the color of the icons is correctly inverted, several types of inversion are added, so that you can choose the one suitable for all occasions
