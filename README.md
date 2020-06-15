@@ -24,6 +24,9 @@ makes the forum more compact, convenient and interactive. this style does not ch
 * the topic messages have a compacted view now: the margins are minimized and the message buttons are hidden until you hover your mouse over the message
 * the user avatar is smaller now to make the message more compact - but it will become larger when you hover over it
 * some other elements are more interactive
+* forum section headers are now available until they scroll completely
+* popup menu items are now clickable along the entire length
+* post buttons are now located on the popup panel (in the settings you can change the location of the panel or switch to the classic view)
 * use the settings menu to change the highlight color and other options on your choice.  
 
 #### [![](https://i01.appmifile.com/webfile/globalimg/favicon.ico) MI-R3G Padavan Tweaks](https://github.com/almaceleste/userstyles/raw/master/src/MI-R3G_Padavan_Tweaks.user.css 'install')  
