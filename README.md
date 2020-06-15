@@ -12,8 +12,9 @@ this is the repo of my userstyles.
 [![Opera](https://img.shields.io/badge/Opera-Linux,_Windows,_Mac-lightgrey.svg?longCache=true)](https://addons.opera.com/en-gb/extensions/details/stylus/)  
 
 #### external repos
-[![](https://img.shields.io/badge/OpenUserCSS-almaceleste-green.svg?longCache=true&colorA=778899&colorB=00bfff)](https://openusercss.org/profile/5e90dfa66618400c009af3dd "openusercss | almaceleste")  
-[![](https://img.shields.io/badge/Userstyles.org-almaceleste-green.svg?longCache=true&colorA=778899&colorB=00bfff)](https://userstyles.org/users/903337 "userstyles.org | almaceleste")  
+[![](https://img.shields.io/badge/OpenUserCSS.org-almaceleste-green.svg?longCache=true&colorA=778899&colorB=00bfff)](https://openusercss.org/profile/5e90dfa66618400c009af3dd "openusercss | almaceleste")  
+[![](https://img.shields.io/badge/GreasyFork.org-almaceleste-green.svg?longCache=true&colorA=778899&colorB=00bfff)](https://greasyfork.org/en/users/174037-almaceleste?language=css "greasyfork.org | almaceleste")  
+[![](https://img.shields.io/badge/UserStyles.org-almaceleste-green.svg?longCache=true&colorA=778899&colorB=00bfff)](https://userstyles.org/users/903337 "userstyles.org | almaceleste")  
 
 ### list of styles 
 #### [![](http://s.4pda.to/iEHnNOJ5KvJr3UOqhdl.png) 4pda.ru Forum Tweaks](https://github.com/almaceleste/userstyles/raw/master/src/4pda.ru_Forum_Tweaks.user.css 'install')  
