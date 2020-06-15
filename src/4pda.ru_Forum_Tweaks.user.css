@@ -2,7 +2,7 @@
 @name:ru        4pda.ru Forum Tweaks
 @name           4pda.ru Forum Tweaks
 @namespace      almaceleste
-@version        0.2.3
+@version        0.2.4
 @description    makes the forum more compact, convenient and interactive
 @description:ru делает форум более компактным, удобным и интерактивным
 @author         🄯 almaceleste (https://almaceleste.github.io)
@@ -40,6 +40,62 @@
     'slategray:slategray':          'slategray',
     'whitesmoke:whitesmoke':        'whitesmoke',
     'white:white':                  'white'
+}
+@var select     post-buttons-position 'post buttons position' {
+    'old:old style': `
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) {
+                box-shadow: none !important;
+            }
+        `,
+    'middle*': `
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) {
+                bottom: 0;
+                position: absolute;
+                right: 50%;
+                transform: translateX(50%);
+            }
+            .borderwrap .ipbtable:hover tbody tr:nth-of-type(3) {
+                display: inline-block !important;
+            }
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) .formbuttonrow:nth-of-type(1) {
+                width: 170px;
+            }
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) .formbuttonrow:nth-of-type(2) {
+                width: 450px;
+            }
+        `,
+    'left:left (may overlap some elements)': `
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) {
+                bottom: 0;
+                position: absolute;
+                left: 0;
+            }
+            .borderwrap .ipbtable:hover tbody tr:nth-of-type(3) {
+                display: inline-block !important;
+            }
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) .formbuttonrow:nth-of-type(1) {
+                width: 170px;
+            }
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) .formbuttonrow:nth-of-type(2) {
+                width: 450px;
+            }
+        `,
+    'right': `
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) {
+                bottom: 0;
+                position: absolute;
+                right: 0;
+            }
+            .borderwrap .ipbtable:hover tbody tr:nth-of-type(3) {
+                display: inline-block !important;
+            }
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) .formbuttonrow:nth-of-type(1) {
+                width: 170px;
+            }
+            .borderwrap .ipbtable tbody tr:nth-of-type(3) .formbuttonrow:nth-of-type(2) {
+                width: 450px;
+            }
+        `
 }
 @var text       qr_open-height 'bottom indentation' 275
 ==/UserStyle== */
@@ -196,6 +252,21 @@
     }
     .borderwrap .ipbtable:hover tbody tr:nth-of-type(3) {
         display: table-row !important;
+    }
+
+
+    /* topic message floating buttons panel */
+    .borderwrap .ipbtable tbody tr:nth-of-type(3) {
+        box-shadow: 0 0 5px 1px /*[[highlight-color]]*/ !important;
+    }
+    /*[[post-buttons-position]]*/
+
+
+    .borderwrap .ipbtable tbody tr:nth-of-type(3) .formbuttonrow:nth-of-type(1) {
+        width: 170px;
+    }
+    .borderwrap .ipbtable tbody tr:nth-of-type(3) .formbuttonrow:nth-of-type(2) {
+        width: 450px;
     }
     .borderwrap .ipbtable tbody tr:nth-of-type(3) .formbuttonrow:nth-of-type(2) div:nth-of-type(3) {
         float: right;
