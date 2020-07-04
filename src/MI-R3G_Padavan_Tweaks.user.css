@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MI-R3G Padavan Tweaks
 @namespace      almaceleste
-@version        0.1.0
+@version        0.1.1
 @description    fixes and improvements for MI-R3G router Padavan firmware
 @author         🄯 almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -338,10 +338,11 @@
         box-shadow: 0 0 2px 2px /*[[alert-color]]*/;
         filter: drop-shadow(0 0 3px /*[[alert-color]]*/) drop-shadow(0 0 5px /*[[alert-color]]*/);
     }
+    #Loading,
     #LoadingBar {
         bottom: 0;
         left: 0;
-        position: fixed;
+        position: fixed !important;
         right: 0;
         top: 0;
     }
