@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MDN Editor (UI Tweaks)
 @namespace      almaceleste
-@version        0.3.0
+@version        0.3.1
 @description    tweaks for the UI of the MDN Editor (https://wiki.developer.mozilla.org/*$edit)
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -31,7 +31,7 @@
 ]
 ==/UserStyle== */
 
-@-moz-document regexp('https://wiki\\.developer\\.mozilla\\.org/.*\\$edit') {
+@-moz-document regexp('https://wiki\\.developer\\.mozilla\\.org/.*\\$edit(#.*)?') {
     #content-fields > .approved > header {
         padding: 10px;
         position: sticky;
