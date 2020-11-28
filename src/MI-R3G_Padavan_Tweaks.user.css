@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MI-R3G Padavan Tweaks
 @namespace      almaceleste
-@version        0.1.2
+@version        0.2.0
 @description    fixes and improvements for MI-R3G router Padavan firmware
 @author         🄯 almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -45,6 +45,20 @@
     'orangered*',
     'white'
 ]
+@var select     footer-position 'footer position' {
+    'center': `
+        left: 50%;
+        transform: translateX(-50%);
+        width: 710px;
+    `,
+    'left*': `
+        width: 240px;
+    `,
+    'right': `
+        right: 25px;
+        width: 240px;
+    `
+}
 ==/UserStyle== */
 
 @-moz-document url-prefix(http:///*[[ip]]*//) {
@@ -297,15 +311,14 @@
         background-color: #333;
     }
 
+    /* footer */
     #footer {
         background: url(http:///*[[ip]]*//bootstrap/img/dark-bg.jpg) repeat scroll center top transparent;
         bottom: 0;
-        left: 50%;
         padding: 5px;
         position: fixed;
-        transform: translateX(-50%);
-        width: 55%;
         z-index: 9;
+        /*[[footer-position]]*/
     }
     /* try to make client table header sticky - does not work for now */
     #Clients_table {
@@ -333,6 +346,7 @@
     }
     #TopBanner #syslog_panel_button:hover,
     #TopBanner #syslog_panel_button span:hover {
+        cursor: pointer;
         filter: none;
     }
     #TopBanner #syslog_panel_button .label-important {
@@ -356,12 +370,37 @@
         box-shadow: 0 0 2px 2px /*[[alert-color]]*/;
         filter: drop-shadow(0 0 3px /*[[alert-color]]*/) drop-shadow(0 0 5px /*[[alert-color]]*/);
     }
+
+    /* loading bar for firmware update */
     #Loading,
     #LoadingBar {
         bottom: 0;
+        height: auto !important;
         left: 0;
         position: fixed !important;
         right: 0;
         top: 0;
+        width: auto !important;
+    }
+    #LoadingBar .well {
+        background-color: #333 !important;
+    }
+    #LoadingBar .alert {
+        cursor: default;
+        background-color: #777 !important;
+        color: black !important;
+    }
+    #LoadingBar .alert:hover {
+        filter: drop-shadow(0 0 3px /*[[alert-color]]*/) drop-shadow(0 0 5px /*[[alert-color]]*/);
+        text-shadow: 0 0 2px /*[[alert-color]]*/ !important;
+    }
+    #LoadingBar .progress {
+        background-color: #999 !important;
+        background-image: none !important;
+    }
+    #LoadingBar .progress:hover,
+    #LoadingBar .progress:hover > .bar {
+        box-shadow: 0 0 3px 0 /*[[highlight-color]]*/;
+        filter: drop-shadow(0 0 3px /*[[highlight-color]]*/);
     }
 }
