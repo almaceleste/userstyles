@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MI-R3G Padavan Tweaks
 @namespace      almaceleste
-@version        0.1.1
+@version        0.1.2
 @description    fixes and improvements for MI-R3G router Padavan firmware
 @author         🄯 almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -48,10 +48,8 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix(http:///*[[ip]]*//) {
-    body,
-    html {
-        height: 100%;
-        margin: 0;
+    body::-webkit-scrollbar {
+        display: none;
     }
     body,
     body.body_iframe,
@@ -109,6 +107,11 @@
     div.main_itoggle label.itoggle span {
         filter: invert(.82);
     }
+
+    /* popover info window */
+    .popover {
+        transform: translateX(-15%);
+    }
     .popover > .arrow {
         border-right-color: #555 !important;
     }
@@ -123,11 +126,18 @@
         color: whitesmoke !important;
         padding: 7px 15px;
     }
+
     #statusframe {
         min-height: /*[[frame-height]]*/px;
     }
+
+    /* main wrapper */
     .wrapper {
+        height: calc(/*[[frame-height]]*/ + 100)px;
+        left: -5%;
         margin-bottom: 70px;
+        position: relative;
+        top: -20px;
     }
     .wrapper > div.container-fluid:first-of-type {
         background: url(http:///*[[ip]]*//bootstrap/img/dark-bg.jpg) repeat fixed center top transparent;
@@ -137,6 +147,31 @@
         top: 0;
         z-index: 9;
     }
+    .wrapper > .container-fluid:nth-last-of-type(2) > .row-fluid > .span9 > .row-fluid > .span2 {
+        position: sticky;
+        top: 165px;
+    }
+    .wrapper > .container-fluid:nth-last-of-type(2) > .row-fluid > .span9 > .row-fluid > .span2 > .well {
+        height: unset !important;
+        min-height: 320px;
+    }
+    .wrapper .container-fluid:not(:first-child) > .row-fluid > .span3 {
+        position: sticky;
+        top: 165px;
+    }
+    .wrapper > form > .container-fluid > .row-fluid {
+        margin-bottom: 70px;
+    }
+    .wrapper > #LoadingBar ~ .container-fluid {
+        position: relative;
+        top: 20px;
+    }
+    .wrapper > form[action='upgrade.cgi'] {
+        position: relative;
+        top: 25px;
+    }
+
+    /* highcharts */
     .highcharts-background {
         fill: #333 !important;
     }
@@ -147,9 +182,10 @@
     .highcharts-container text.highcharts-title {
         fill: whitesmoke !important;
     }
+
     #mainMenu,
     .well {
-        background-color: #333 !important;
+        background-color: unset !important;
         color: whitesmoke !important;
     }
     .bar_nav ul,
@@ -227,10 +263,6 @@
     .table-striped tbody tr:nth-child(2n) th {
         background-color: #555 !important;
     }
-    .wrapper .container-fluid:not(:first-child) > .row-fluid > .span3 {
-        position: sticky;
-        top: 165px;
-    }
     input[type="file"],
     select,
     textarea,
@@ -264,34 +296,11 @@
         top: 197px;
         background-color: #333;
     }
-    /* .wrapper > form[name='aidiskForm'],
-    .wrapper > form[name='form'],
-    .wrapper > #ruleForm,
-    .wrapper > #Loading ~ div.container-fluid:not(:first-of-type) */
-    .wrapper {
-        position: relative;
-        top: -20px;
-    }
-    .wrapper > #LoadingBar ~ .container-fluid {
-        position: relative;
-        top: 20px;
-    }
-    .wrapper > form[action='upgrade.cgi'] {
-        position: relative;
-        top: 25px;
-    }
-    .wrapper > div.container-fluid:nth-last-of-type(2) > .row-fluid > .span9 > .row-fluid > .span2 {
-        position: sticky;
-        top: 165px;
-    }
-    .wrapper > div.container-fluid:nth-last-of-type(2) > .row-fluid > .span9 > .row-fluid > .span2 > .well {
-        height: unset !important;
-        min-height: 320px;
-    }
+
     #footer {
         background: url(http:///*[[ip]]*//bootstrap/img/dark-bg.jpg) repeat scroll center top transparent;
         bottom: 0;
-        left: 60%;
+        left: 50%;
         padding: 5px;
         position: fixed;
         transform: translateX(-50%);
@@ -308,6 +317,15 @@
     }
     .body_iframe {
         /* overflow-y: scroll; */
+    }
+    /* log panel */
+    #TopBanner {
+        position: relative;
+    }
+    #TopBanner .syslog_panel {
+        left: 50% !important;
+        position: absolute !important;
+        transform: translateX(-60%) translateY(-20px) !important;
     }
     /* log button */
     #TopBanner #syslog_panel_button:hover {
