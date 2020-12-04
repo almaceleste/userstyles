@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MI-R3G Padavan Tweaks
 @namespace      almaceleste
-@version        0.2.0
+@version        0.2.1
 @description    fixes and improvements for MI-R3G router Padavan firmware
 @author         🄯 almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -61,7 +61,8 @@
 }
 ==/UserStyle== */
 
-@-moz-document url-prefix(http:///*[[ip]]*//) {
+@-moz-document  url-prefix(http:///*[[ip]]*//),
+                url-prefix(https:///*[[ip]]*//) {
     body::-webkit-scrollbar {
         display: none;
     }
@@ -111,6 +112,7 @@
     }
     i,
     #Clients_table img,
+    #Senario img,
     .icon-remove {
         filter: /*[[invert-type]]*/;
     }
@@ -402,5 +404,9 @@
     #LoadingBar .progress:hover > .bar {
         box-shadow: 0 0 3px 0 /*[[highlight-color]]*/;
         filter: drop-shadow(0 0 3px /*[[highlight-color]]*/);
+    }
+
+    #ruleForm > .container-fluid .controls > label > div {
+        color: whitesmoke;
     }
 }
