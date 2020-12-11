@@ -81,6 +81,7 @@ _'Come to the Dark Side' - Darth Vader_
 this style goes well with the darcula theme of the editor, imho.
 but feel free with your own experiments.
 
+- fixed: searchbox textarea height and cursor
 - use the settings menu to change the highlight color on your choice.
 
 #### [![](https://wiki.developer.mozilla.org/static/img/favicon32.7f3da72dcea1.png) MDN Editor (Gray Toolbox)](<https://github.com/almaceleste/userstyles/raw/master/src/MDN_Editor_(Gray_Toolbox).user.css> "install")
