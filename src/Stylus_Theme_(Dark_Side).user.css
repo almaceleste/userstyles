@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Stylus Theme (Dark Side)
 @namespace      almaceleste
-@version        0.5.4
+@version        0.5.5
 @description    Stylus dark theme, inspired by Randy W. Sims' Stylus Theme (Dark) <https://github.com/simsrw73/stylus-theme>
 @author         almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -277,4 +277,13 @@
     .non-windows #message-box-buttons, #message-box > div { background-color: #333 !important; }
     #message-box #message-box-buttons button, #message-box #message-box-contents { color: /*[[foreground-color]]*/ !important; }
     #message-box #message-box-buttons button:hover { text-shadow: 0 0 2px /*[[foreground-color]]*/; border-color: /*[[foreground-color]]*/ !important; }
+    /* fix search textarea */
+    #search-replace-dialog textarea {
+        cursor: auto;
+        min-height: 3em !important;
+    }
+    #search-replace-dialog [data-type="hover"] {
+        bottom: unset !important;
+        top: 5px !important;
+    }
 }
