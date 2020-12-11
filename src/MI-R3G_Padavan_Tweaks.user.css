@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           MI-R3G Padavan Tweaks
 @namespace      almaceleste
-@version        0.2.1
+@version        0.3.0
 @description    fixes and improvements for MI-R3G router Padavan firmware
 @author         🄯 almaceleste (https://almaceleste.github.io)
 @license        AGPL-3.0-or-later; http://www.gnu.org/licenses/agpl.txt
@@ -11,7 +11,8 @@
 @updateURL      https://github.com/almaceleste/userstyles/raw/master/src/MI-R3G_Padavan_Tweaks.user.css
 
 @preprocessor   uso
-@var text       ip 'router ip' 192.168.1.1
+@var text       lan-ip 'router lan ip' 192.168.1.1
+@var text       wan-ip 'router wan ip' 192.168.1.1
 @var text       frame-height 'status frame height' 705
 @var select     invert-type 'icons dark mode' {
     'unset': 'none',
@@ -61,15 +62,17 @@
 }
 ==/UserStyle== */
 
-@-moz-document  url-prefix(http:///*[[ip]]*//),
-                url-prefix(https:///*[[ip]]*//) {
+@-moz-document  url-prefix(http:///*[[lan-ip]]*//),
+                url-prefix(https:///*[[lan-ip]]*//),
+                url-prefix(http:///*[[wan-ip]]*//),
+                url-prefix(https:///*[[wan-ip]]*//) {
     body::-webkit-scrollbar {
         display: none;
     }
     body,
     body.body_iframe,
     html {
-        background: url(http:///*[[ip]]*//bootstrap/img/dark-bg.jpg) repeat fixed center top #333;
+        background: url(/bootstrap/img/dark-bg.jpg) repeat fixed center top #333;
         color: whitesmoke;
         height: 100%;
         margin: 0;
@@ -156,7 +159,7 @@
         top: -20px;
     }
     .wrapper > div.container-fluid:first-of-type {
-        background: url(http:///*[[ip]]*//bootstrap/img/dark-bg.jpg) repeat fixed center top transparent;
+        background: url(/bootstrap/img/dark-bg.jpg) repeat fixed center top transparent;
         height: 165px;
         /* padding-bottom: 5px; */
         position: sticky;
@@ -315,7 +318,7 @@
 
     /* footer */
     #footer {
-        background: url(http:///*[[ip]]*//bootstrap/img/dark-bg.jpg) repeat scroll center top transparent;
+        background: url(/bootstrap/img/dark-bg.jpg) repeat scroll center top transparent;
         bottom: 0;
         padding: 5px;
         position: fixed;
