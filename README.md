@@ -48,6 +48,7 @@ fixes and improvements for MI-R3G router Padavan firmware
 - pop-up informational message no longer creeps out of the client list frame, which caused the scrollbar to appear earlier
 - buttons and other interactive elements are highlighted when you hover, and the backlight has two types - normal and warning (you can choose colors or turn off)
 - now only the part of the interface that contains a large amount of data is scrolled - the menu, top panel and tabs remain in place
+- two ip settings: for wan ip and lan ip
 - the main parameters of changes and innovations can be configured or disabled in the style settings menu
 
 #### [![](https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico) Youtube Progress Bar Highlighting](https://github.com/almaceleste/userstyles/raw/master/src/Youtube_Progress_Bar_Highlighting.user.css "install")
