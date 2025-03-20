@@ -1,3 +1,7 @@
+## :warning: temporarily not maintained
+>
+> Sorry, I don't have time at the moment to maintain this project due to my busy schedule. You can fork it and make changes that suit your needs to continue using it. You can also then propose these changes with a pull request. I will try to find time to review it and accept it if it fits the current goals of the project.
+
 ### about
 
 this is the repo of my userstyles.
